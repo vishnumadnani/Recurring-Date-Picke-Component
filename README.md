@@ -122,7 +122,7 @@ To add new recurrence patterns:
 
 ### Basic Usage
 
-```tsx
+```jsx
 import { RecurrencePicker } from './components/RecurrencePicker/RecurrencePicker';
 
 function App() {
@@ -136,7 +136,7 @@ function App() {
 
 ### Using the Context
 
-```tsx
+```jsx
 import { useRecurrence } from './contexts/RecurrenceContext';
 
 function MyComponent() {
@@ -175,38 +175,10 @@ function MyComponent() {
 - **TypeScript** - Type safety
 - **Tailwind CSS** - Styling and design system
 - **date-fns** - Date manipulation
-- **Radix UI** - Accessible UI primitives
 - **Lucide React** - Beautiful icons
 - **Vitest** - Fast unit testing
 - **React Testing Library** - Component testing
 
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── ui/                    # Reusable UI components (shadcn/ui)
-│   └── RecurrencePicker/      # Main feature components
-├── contexts/
-│   └── RecurrenceContext.tsx  # State management
-├── utils/
-│   └── dateUtils.ts          # Date calculation utilities
-├── __tests__/                # Test files
-└── pages/
-    └── Index.tsx             # Main page
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
